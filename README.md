@@ -7,11 +7,21 @@
 
 ## Organization
 
-Firstly, the relevant information about the dataset is set out in 'pre_processing'. 
+Firstly, the relevant information about the dataset is set out in 'pre_processing':
 
-In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the relationships between the variables of interest to the research were analyzed.
+https://nbviewer.org/github/LucasTramonte/Analysis-SARS-CoV-2-variants/blob/main/pre_processing.ipynb
 
-Finally, in 'Logistic_Regression', the main analyses were presented, with the implementation of the Logistic Regression model. 
+In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the relationships between the variables of interest to the research were analyzed:
+
+https://nbviewer.org/github/LucasTramonte/Analysis-SARS-CoV-2-variants/blob/main/exploratory_Sociodemographic_Obstetrical.ipynb
+
+https://nbviewer.org/github/LucasTramonte/Analysis-SARS-CoV-2-variants/blob/main/exploratory_Clinical%20features.ipynb
+
+
+
+Finally, in 'Logistic_Regression', the main analyses were presented, with the implementation of the Logistic Regression model: 
+
+https://nbviewer.org/github/LucasTramonte/Analysis-SARS-CoV-2-variants/blob/main/Logistic_Regression.ipynb
 
 
 ## Installation
