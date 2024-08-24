@@ -9,6 +9,7 @@
  - [Installation](#installation)
 - [Organization](#Organization)
 - [Analysis](#Analysis)
+- [Conclusion](#Conclusion)
 
 ## Installation
 
@@ -54,7 +55,7 @@ You can better understand data selection with Flowchart:
 
 In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the independence of the following features with the covid variant was verified using the chi square test : 
 
-| **Jupyter notebook**                             | **Features** | **Explanation**            | **p-value** |
+| **Jupyter notebook**      | **Features** | **Explanation**            | **p-value** |
 |--------------------------------------------------|--------------|----------------------------------|-------------|
 | Exploratory Sociodemographic Obstetrical         | OUT_MORBI    | Other Risk Factors               | 0.24        |
 |                                                  | HEMATOLOGI   | Chronic Hematological Disease    | 0.75        |
@@ -135,29 +136,34 @@ If we analyze the southeast on the omicrom vs gamma graph, for example, we can c
 
 Finally, we can see the final results of the logistic regression analysis for the association between clinical features of SARS-CoV-2 infection at admission and adverse maternal outcomes:
 
-| Logistic regression Outcome  | Symptom     | OR GAMA (95% CI)         | OR DELTA (95% CI)        | OR OMICRON (95% CI)      | p-value  |
+| Logistic regression Outcome| Symptom     | OR GAMA (95% CI)         | OR DELTA (95% CI)        | OR OMICRON (95% CI)      |p-value|
 |-------------------------|-------------|--------------------------|--------------------------|--------------------------|----------|
-| **Death**               | Fever       | 1.26 (1.08 - 1.48)        | 1.44 (0.72 - 2.86)        | 2.33 (1.56 - 3.48)        | **0.0000**   |
-|                         | Cough       | 1.17 (0.98 - 1.4)         | 0.94 (0.45 - 1.93)        | 1.74 (1.14 - 2.66)        | **0.0000**   |
-|                         | Sore Throat | 1.06 (0.87 - 1.28)        | 0.73 (0.31 - 1.71)        | 0.4 (0.22 - 0.73)         | 0.1897   |
-|                         | Dyspnea     | 3.52 (2.86 - 4.34)        | 3.59 (1.6 - 8.06)         | 10.75 (6.76 - 17.07)      | **0.0000**   |
-|                         | Respiratory Discomfort   | 2.54 (2.15 - 3.0)         | 3.46 (1.66 - 7.23)        | 8.15 (5.29 - 12.54)       | **0.0000**   |
-|                         | Oxygen Saturation   | 3.63 (3.04 - 4.33)        | 6.18 (2.83 - 13.53)       | 15.42 (9.86 - 24.13)      | **0.0000**   |
-|                         | Diarrhea    | 0.84 (0.64 - 1.1)         | 1.31 (0.38 - 4.56)        | 3.2 (1.68 - 6.07)         | 0.2785   |
-|                         | Vomit      | 0.72 (0.54 - 0.96)        | 2.07 (0.75 - 5.72)        | 1.43 (0.75 - 2.72)        | 0.3068   |
+| **Death**               | Fever       | 1.26 (1.08 - 1.48)        | 1.44 (0.72 - 2.86)        | 2.33 (1.56 - 3.48)        | **0**|
+|                         | Cough       | 1.17 (0.98 - 1.4)         | 0.94 (0.45 - 1.93)        | 1.74 (1.14 - 2.66)        | **0**|
+|                         | Sore Throat | 1.06 (0.87 - 1.28)        | 0.73 (0.31 - 1.71)        | 0.4 (0.22 - 0.73)         | 0.1897|
+|                         | Dyspnea     | 3.52 (2.86 - 4.34)        | 3.59 (1.6 - 8.06)         | 10.75 (6.76 - 17.07)      | **0**|
+|                         | Respiratory Discomfort   | 2.54 (2.15 - 3.0)         | 3.46 (1.66 - 7.23)        | 8.15 (5.29 - 12.54)| **0**   |
+|                         | Oxygen Saturation   | 3.63 (3.04 - 4.33)        | 6.18 (2.83 - 13.53)       | 15.42 (9.86 - 24.13)      | **0**|
+|                         | Diarrhea    | 0.84 (0.64 - 1.1)         | 1.31 (0.38 - 4.56)        | 3.2 (1.68 - 6.07)         | 0.2785|
+|                         | Vomit      | 0.72 (0.54 - 0.96)        | 2.07 (0.75 - 5.72)        | 1.43 (0.75 - 2.72)        | 0.3068|
 |                         | Abdominal Pain     | 0.79 (0.59 - 1.07)        | 1.17 (0.34 - 4.03)        | 1.63 (0.87 - 3.04)        | 0.5219   |
 |                         | Fatigue      | 1.04 (0.88 - 1.23)        | 0.88 (0.39 - 2.0)         | 2.19 (1.4 - 3.43)         | **0.0011**   |
 |                         | Loss of Smell   | 0.69 (0.54 - 0.87)        | 0.42 (0.13 - 1.42)        | 2.05 (0.92 - 4.57)        | 0.2740   |
 |                         | Loss of Taste   | 0.58 (0.45 - 0.75)        | 0.14 (0.02 - 1.02)        | 2.47 (1.16 - 5.29)        | **0.0195**   |
-| **ICU admission**       | Fever       | 1.26 (1.12 - 1.41)        | 1.35 (0.92 - 2.0)         | 1.73 (1.33 - 2.24)        | **0.0000**   |
-|                         | Cough       | 1.38 (1.21 - 1.58)        | 1.01 (0.67 - 1.53)        | 1.24 (0.96 - 1.62)        | **0.0000**   |
-|                         | Sore Throat    | 0.8 (0.69 - 0.92)         | 0.91 (0.57 - 1.44)        | 0.69 (0.5 - 0.96)         | **0.0000**   |
-|                         | Dyspnea    | 4.3 (3.71 - 4.97)         | 3.61 (2.37 - 5.5)         | 5.26 (4.02 - 6.88)        | **0.0000**   |
-|                         | Respiratory Discomfort   | 2.89 (2.56 - 3.27)        | 3.58 (2.38 - 5.37)        | 4.25 (3.26 - 5.55)        | **0.0000**   |
-|                         | Oxygen Saturation   | 4.01 (3.53 - 4.54)        | 5.36 (3.52 - 8.16)        | 6.79 (5.15 - 8.95)        | **0.0000**   |
+| **ICU admission**       | Fever       | 1.26 (1.12 - 1.41)        | 1.35 (0.92 - 2.0)         | 1.73 (1.33 - 2.24)        | **0** |
+|                         | Cough       | 1.38 (1.21 - 1.58)        | 1.01 (0.67 - 1.53)        | 1.24 (0.96 - 1.62)        | **0**|
+|                         | Sore Throat    | 0.8 (0.69 - 0.92)         | 0.91 (0.57 - 1.44)        | 0.69 (0.5 - 0.96)         | **0**|
+|                         | Dyspnea    | 4.3 (3.71 - 4.97)         | 3.61 (2.37 - 5.5)         | 5.26 (4.02 - 6.88)        | **0**|
+|                         | Respiratory Discomfort   | 2.89 (2.56 - 3.27)        | 3.58 (2.38 - 5.37)        | 4.25 (3.26 - 5.55)        | **0** |
+|                         | Oxygen Saturation   | 4.01 (3.53 - 4.54)        | 5.36 (3.52 - 8.16)        | 6.79 (5.15 - 8.95)        | **0**|
 |                         | Diarrhea    | 0.74 (0.6 - 0.9)          | 0.89 (0.4 - 1.98)         | 1.62 (0.94 - 2.77)        | 0.5713   |
 |                         | Vomit      | 0.72 (0.59 - 0.87)        | 1.15 (0.57 - 2.32)        | 1.31 (0.84 - 2.04)        | 0.0971   |
 |                         | Abdominal Pain     | 0.7 (0.56 - 0.87)         | 0.81 (0.37 - 1.79)        | 1.34 (0.86 - 2.09)        | **0.0294**   |
-|                         | Fatigue      | 1.34 (1.18 - 1.52)        | 1.68 (1.08 - 2.61)        | 2.12 (1.56 - 2.87)        | **0.0000**   |
+|                         | Fatigue      | 1.34 (1.18 - 1.52)        | 1.68 (1.08 - 2.61)        | 2.12 (1.56 - 2.87)        | **0**|
 |                         | Loss of Smell   | 0.73 (0.62 - 0.86)        | 0.55 (0.31 - 0.98)        | 0.93 (0.46 - 1.88)        | 0.3793   |
 |                         | Loss of Taste   | 0.65 (0.54 - 0.77)        | 0.5 (0.27 - 0.91)         | 0.96 (0.47 - 1.94)        | **0.0224**   |
+
+
+## Conclusion:  
+
+The Omicron variant was associated with a lower risk of severe maternal outcomes than the Delta and Gamma period predominance era. However,  symptomatic pregnant and postpartum women still have a significant risk of severe maternal outcomes during the Omicron variant era.   Upon admission, the presence of cough, fever, and dyspepsia was found to be associated with worse maternal outcomes, underscoring the significance of complete vaccination and booster administration for this vulnerable population against COVID-19. 
