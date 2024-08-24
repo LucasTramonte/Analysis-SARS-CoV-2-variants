@@ -113,6 +113,16 @@ Let's understand the interpretation of one of these cases studied:
 
     Therefore, the group of patients with the gamma variant has 4.2938 times the odds of being transferred to the ICU compared to omicron variant patients.
 
+**Results for all cases :**
+
+*Adjusted for age, gestational period, Brazilian region, education and COVID-19 vaccine status.*
+
+| Severe Maternal Outcomes | Omicron (nr of events) | Gamma (nr of events) | Gamma vs Omicron OR (95% CI) | Gamma vs Omicron aOR (95% CI) | Delta (nr of events) | Delta vs Omicron OR (95% CI) | Delta vs Omicron aOR (95% CI) | Gamma vs Delta OR (95% CI) | Gamma vs Delta aOR (95% CI) |
+|--------------------------|------------------------|----------------------|-----------------------------|------------------------------|----------------------|-----------------------------|------------------------------|---------------------------|----------------------------|
+| ICU admission             | 407/3031               | 2737/4747            | 4.29 (3.83-4.81)            | 3.31 (2.86-3.83)             | 229/415              | 4.10 (3.39-4.97)            | 4.15 (3.37-5.11)             | 1.04 (0.88-1.24)           | 0.76 (0.63-0.92)           |
+| Maternal death            | 135/3512               | 1138/6460            | 4.58 (3.81-5.5)             | 3.33 (2.66-4.16)             | 153/1103             | 2.406 (1.73-3.34)           | 2.77 (1.88-4.08)             | 0.77 (0.65-0.93)           | 1.4 (1.03-1.92)            |
+
+
 Moreover, a new variable was created, called composite of severe maternal outcomes ('UTI_EVOLUCAO'), which was determined as follows : 
 
 - Individuals who were not admitted to the ICU and died -> UTI_EVOLUCAO = True
