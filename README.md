@@ -55,8 +55,8 @@ You can better understand data selection with Flowchart:
 
 In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the independence of the following features with the covid variant was verified using the chi square test : 
 
-| **Jupyter notebook**      | **Features** | **Explanation**    | **p-value** |
-|-----------------------------------------|--------------|----------------------------------|-------------|
+| **Jupyter notebook**      | **Features** | **Explanation**    |  **p-value**  |
+|-----------------------------------------|--------------|----------------------------------|--------------------|
 | Exploratory Sociodemographic Obstetrical| OUT_MORBI    | Other Risk Factors               | 0.24        |
 |                                         | HEMATOLOGI   | Chronic Hematological Disease    | 0.75        |
 |                                         | SIND_DOWN    | Down Syndrome                    | 0.09        |
@@ -136,8 +136,8 @@ If we analyze the southeast on the omicrom vs gamma graph, for example, we can c
 
 Finally, we can see the final results of the logistic regression analysis for the association between clinical features of SARS-CoV-2 infection at admission and adverse maternal outcomes:
 
-| Logistic regression Outcome| Symptom     | OR GAMA (95% CI)         | OR DELTA (95% CI)        | OR OMICRON (95% CI)      |p-value|
-|------------------|-------------|--------------------------|--------------------------|--------------------------|----------|
+| Logistic regression Outcome| Symptom     | OR GAMA (95% CI)         | OR DELTA (95% CI)        | OR OMICRON (95% CI)      |  p-value   |
+|------------------|-------------|--------------------------|--------------------------|--------------------------|---------------------|
 | **Death**               | Fever       | 1.26 (1.08 - 1.48)        | 1.44 (0.72 - 2.86)        | 2.33 (1.56 - 3.48)        | **0**|
 |                         | Cough       | 1.17 (0.98 - 1.4)         | 0.94 (0.45 - 1.93)        | 1.74 (1.14 - 2.66)        | **0**|
 |                         | Sore Throat | 1.06 (0.87 - 1.28)        | 0.73 (0.31 - 1.71)        | 0.4 (0.22 - 0.73)         | 0.1897|
