@@ -26,9 +26,7 @@ As such, the dataset has not been placed in the repository, but the data diction
 
 - In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the relationships between the variables of interest to the research were analyzed.
 
-    **The analysis was also done in Power BI :** 
-
-    https://app.powerbi.com/view?r=eyJrIjoiMThiNjhmNzItMzhiOC00YThhLTk2MzAtZGEyNzQ2MjMyNzg5IiwidCI6IjYxZjNlM2I4LTliNTItNDMzYS1hNGViLWM2NzMzNGNlNTRkNSIsImMiOjh9
+    **The analysis was also done in [Power BI](https://app.powerbi.com/view?r=eyJrIjoiMThiNjhmNzItMzhiOC00YThhLTk2MzAtZGEyNzQ2MjMyNzg5IiwidCI6IjYxZjNlM2I4LTliNTItNDMzYS1hNGViLWM2NzMzNGNlNTRkNSIsImMiOjh9)** 
 
 - Finally, in 'main', we have the implementation of the Logistic Regression model
 
