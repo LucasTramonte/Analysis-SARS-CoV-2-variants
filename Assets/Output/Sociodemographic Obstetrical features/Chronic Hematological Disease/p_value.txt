@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Chronic_Hematological_Disease and VARIANTE_COVID) have no relationship
+p-value: 0.7452929724458084
+Failed to reject the null hypothesis.

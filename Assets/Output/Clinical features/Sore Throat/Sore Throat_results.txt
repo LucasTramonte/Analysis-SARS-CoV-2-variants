@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Sore Throat and VARIANTE_COVID) have no relationship
+p-value: 5.978051242139237e-06
+Null Hypothesis is rejected.

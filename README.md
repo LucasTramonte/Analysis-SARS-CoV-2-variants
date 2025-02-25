@@ -6,31 +6,37 @@
  This project was accepted for publication at the FIGO Obstetrics & Gynaecology International Conference
 
  ## Contents
- - [Installation](#installation)
-- [Organization](#Organization)
+ - [Project Structure](#ProjectStructure)
 - [Analysis](#Analysis)
 - [Conclusion](#Conclusion)
 
-## Installation
+## Project Structure
 
-The database for this project is public :https://opendatasus.saude.gov.br/dataset/srag-2021-a-2023.
-(The analyses carried out do not include updates to the database since 2022.)
+```plaintext
 
-As such, the dataset has not been placed in the repository, but the data dictionary is contained in the 'Assets' folder
+ANALYSIS-SARS-COV-2-VARIANTS/
 
+├── Assets/                                                 # Directory for project assets
+│   ├── Images/                                             # Stores images used in the project 
+│   ├── Output/                                             # Directory for generated results
+│       ├── Clinical features/                              # Outputs from exploratory_Clinical features.ipynb
+│       ├── Logistic Regression/                            # Outputs from main.ipynb
+│       ├── Sociodemographic Obstetrical features/          # Outputs from exploratory_Sociodemographic_Obstetrical.ipynb
+├── data_dictionary.pdf                                     # Data dictionary in portuguese
+├── notebooks/                                              # Directory for jupyter notebooks
+│   ├── exploratory_Clinical features.ipynb                 # Clinical features analysis   
+│   ├── exploratory_Sociodemographic_Obstetrical.ipynb      # Sociodemographic and Obstetrical features analysis
+│   ├── main.ipynb                                          # Logistic Regression analysis 
+│   ├── pre_processing.ipynb                                # Exploratory Data Analysis and pre processing
+├── scripts/                                                # python version of the notebooks
+├── .gitignore  
+├── README.md                       
+└── requirements.txt                
+```
 
-## Organization
+- The database for this project is [public](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2023) (The analyses carried out do not include updates to the database since 2022.)
 
-
-- Firstly, the relevant information about the dataset is set out in 'pre_processing'
-
-- In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the relationships between the variables of interest to the research were analyzed.
-
-    **The analysis was also done in Power BI :** 
-
-    https://app.powerbi.com/view?r=eyJrIjoiMThiNjhmNzItMzhiOC00YThhLTk2MzAtZGEyNzQ2MjMyNzg5IiwidCI6IjYxZjNlM2I4LTliNTItNDMzYS1hNGViLWM2NzMzNGNlNTRkNSIsImMiOjh9
-
-- Finally, in 'main', we have the implementation of the Logistic Regression model
+- The relationships between the variables of interest to the research were analyze  in [Power BI](https://app.powerbi.com/view?r=eyJrIjoiMThiNjhmNzItMzhiOC00YThhLTk2MzAtZGEyNzQ2MjMyNzg5IiwidCI6IjYxZjNlM2I4LTliNTItNDMzYS1hNGViLWM2NzMzNGNlNTRkNSIsImMiOjh9)
 
 ## Analysis
 
@@ -51,7 +57,7 @@ After merging the 2021 and 2022 datasets, the Covid variants were identified by 
 
 You can better understand data selection with Flowchart:
 
-![Flowchart](Assets/Flowchart.png)
+![Flowchart](Assets/Images/Flowchart.png)
 
 In 'exploratory_Sociodemographic_Obstetrical' and 'exploratory_Clinical features', the independence of the following features with the covid variant was verified using the chi square test : 
 
@@ -134,12 +140,12 @@ This analysis makes it possible to check which cases had at least one of the two
 
 | Odds Ratio for each region of Brazil - Gamma VS Delta | Odds Ratio for each region of Brazil - Omicrom VS Delta |
 |------------------------------------------|------------------------------------------|
-| ![Gamma_VS_Delta](Assets/Gamma_vs_Delta_region.png)| ![Omicrom_VS_Delta](Assets/Omicrom_vs_delta_region.png) 
+| ![Gamma_VS_Delta](Assets/Images/Gamma_vs_Delta_region.png)| ![Omicrom_VS_Delta](Assets/Images/Omicrom_vs_delta_region.png) 
 
 
 |Odds Ratio for each region of Brazil - Omicrom VS Gamma|
 |:---------------------------------------------:|
-|![Omicrom_VS_Gamma](Assets/Omicrom_vs_gamma_region.png) |
+|![Omicrom_VS_Gamma](Assets/Images/Omicrom_vs_gamma_region.png) |
 
 
 If we analyze the southeast on the omicrom vs gamma graph, for example, we can conclude that the group of patients with the gamma variant has 4.44 times the odds of being transferred to the ICU or of being dead compared to omicron variant patients.

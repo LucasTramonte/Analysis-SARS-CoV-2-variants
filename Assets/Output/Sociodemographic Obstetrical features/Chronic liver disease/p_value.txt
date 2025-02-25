@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Chronic_Liver_Disease and VARIANTE_COVID) have no relationship
+p-value: 0.12145240748191437
+Failed to reject the null hypothesis.

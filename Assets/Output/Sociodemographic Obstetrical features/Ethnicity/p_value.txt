@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Ethnicity and VARIANTE_COVID) have no relationship
+p-value: 2.4522527387670933e-13
+Null Hypothesis is rejected.

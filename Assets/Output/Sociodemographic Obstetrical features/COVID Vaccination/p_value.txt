@@ -1,0 +1,3 @@
+H₀: The two categorical variables (COVID_Vaccination and VARIANTE_COVID) have no relationship
+p-value: 0.0
+Null Hypothesis is rejected.

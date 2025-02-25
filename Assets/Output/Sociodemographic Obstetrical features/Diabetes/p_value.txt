@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Diabetes and VARIANTE_COVID) have no relationship
+p-value: 0.7456514140853219
+Failed to reject the null hypothesis.

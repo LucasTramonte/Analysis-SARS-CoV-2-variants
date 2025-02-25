@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Down_Syndrome and VARIANTE_COVID) have no relationship
+p-value: 0.09350809815428861
+Failed to reject the null hypothesis.

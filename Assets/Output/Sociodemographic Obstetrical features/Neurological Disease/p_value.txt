@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Neurological_Disease and VARIANTE_COVID) have no relationship
+p-value: 5.321858231197827e-05
+Null Hypothesis is rejected.

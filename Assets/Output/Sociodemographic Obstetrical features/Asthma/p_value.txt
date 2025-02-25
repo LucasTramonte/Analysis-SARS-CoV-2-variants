@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Asthma and VARIANTE_COVID) have no relationship
+p-value: 0.8572720044062689
+Failed to reject the null hypothesis.

@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Brazil_Region and VARIANTE_COVID) have no relationship
+p-value: 2.3308935694036204e-75
+Null Hypothesis is rejected.

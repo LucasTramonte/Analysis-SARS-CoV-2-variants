@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Kidney_Disease and VARIANTE_COVID) have no relationship
+p-value: 0.000988428970198474
+Null Hypothesis is rejected.

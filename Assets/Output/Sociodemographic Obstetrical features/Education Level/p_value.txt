@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Education_Level and VARIANTE_COVID) have no relationship
+p-value: 4.9461987118798444e-05
+Null Hypothesis is rejected.

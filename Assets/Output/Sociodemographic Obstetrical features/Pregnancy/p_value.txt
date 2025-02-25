@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Pregnancy and VARIANTE_COVID) have no relationship
+p-value: 1.069490529262007e-27
+Null Hypothesis is rejected.

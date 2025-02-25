@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Obesity and VARIANTE_COVID) have no relationship
+p-value: 4.317497122905958e-20
+Null Hypothesis is rejected.

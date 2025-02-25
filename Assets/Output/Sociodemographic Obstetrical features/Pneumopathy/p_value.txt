@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Pneumopathy and VARIANTE_COVID) have no relationship
+p-value: 0.002249710967448171
+Null Hypothesis is rejected.

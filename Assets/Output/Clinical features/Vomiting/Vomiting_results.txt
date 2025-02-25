@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Vomiting and VARIANTE_COVID) have no relationship
+p-value: 0.017489275042515295
+Null Hypothesis is rejected.

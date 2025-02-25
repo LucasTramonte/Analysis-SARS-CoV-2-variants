@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Chronic_Cardiovascular_Disease and VARIANTE_COVID) have no relationship
+p-value: 0.11400623720836218
+Failed to reject the null hypothesis.

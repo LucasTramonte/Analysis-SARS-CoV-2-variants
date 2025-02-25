@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Immunodeficiency_or_Immunodepression and VARIANTE_COVID) have no relationship
+p-value: 0.12106668055929806
+Failed to reject the null hypothesis.

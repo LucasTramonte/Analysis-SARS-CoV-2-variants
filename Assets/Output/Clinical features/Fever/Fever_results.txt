@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Fever and VARIANTE_COVID) have no relationship
+p-value: 0.0
+Null Hypothesis is rejected.

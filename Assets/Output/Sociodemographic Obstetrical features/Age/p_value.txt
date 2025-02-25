@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Age and VARIANTE_COVID) have no relationship
+p-value: 2.1352432280238927e-48
+Null Hypothesis is rejected.

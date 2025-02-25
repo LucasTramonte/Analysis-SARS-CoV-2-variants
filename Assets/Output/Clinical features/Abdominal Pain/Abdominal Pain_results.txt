@@ -1,0 +1,3 @@
+H₀: The two categorical variables (Abdominal Pain and VARIANTE_COVID) have no relationship
+p-value: 0.9410382435774959
+Failed to reject the null hypothesis.
