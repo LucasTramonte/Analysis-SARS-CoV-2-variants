@@ -34,7 +34,7 @@ ANALYSIS-SARS-COV-2-VARIANTS/
 └── requirements.txt                
 ```
 
-- The database for this project is [public](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2023) (The analyses carried out do not include updates to the database since 2022.)
+- The database for this project is [public](https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024) (The analyses carried out do not include updates to the database since 2022.)
 
 - The relationships between the variables of interest to the research were analyze  in [Power BI](https://app.powerbi.com/view?r=eyJrIjoiMThiNjhmNzItMzhiOC00YThhLTk2MzAtZGEyNzQ2MjMyNzg5IiwidCI6IjYxZjNlM2I4LTliNTItNDMzYS1hNGViLWM2NzMzNGNlNTRkNSIsImMiOjh9)
 
